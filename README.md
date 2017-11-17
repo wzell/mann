@@ -5,7 +5,7 @@ This repository contains code for reproducing the experiments reported in the pa
 
 that extends the preliminary conference version
 
-- W.Zellinger, T. Grubinger, E. Lughofer, T. Ntschlaeger, and Susanne Saminger-Platz, "Central moment discrepancy (cmd) for domain-invariant representation learning," International Conference on Learning Representations (ICLR), 2017
+- W.Zellinger, T. Grubinger, E. Lughofer, T. Natschlaeger, and Susanne Saminger-Platz, "Central moment discrepancy (cmd) for domain-invariant representation learning," International Conference on Learning Representations (ICLR), 2017
 
 # Requirements
 The implementation is based on the neural networks library keras (version 1.1) and tested with theano backend. For installing theano and keras please follow the installation instruction on the respective github pages. You will also need: numpy, pandas, seaborn, matplotlib, and scipy.
