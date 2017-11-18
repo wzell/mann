@@ -1,4 +1,4 @@
-# Robust Unsupervised Domain Adaptation via Moment Alignment Neural Networks (Keras)
+# Unsupervised Domain Adaptation with Moment Alignment Neural Networks (Keras)
 
 This repository contains code for reproducing the experiments reported in the paper
 - W. Zellinger, B.A. Moser, T. Grubinger, E. Lughofer, T. Natschlaeger, and S. Saminger-Platz, "Robust unsupervised domain adaptation for neural networks via moment alignment," arXiv preprint arXiv:1711.06114, 2017
@@ -17,4 +17,4 @@ In our paper, we report results for one artificial dataset and two benchmark dat
 Use the files, artificial_example.py, object_recognition.py, sentiment_analysis.py and parameter_sensitivity.py to run the experiments and create the images from the paper. Change the N_REPETITIONS parameter for shorter evaluation times.
 
 # System Configuration
-Please note that the exact results depend on your system setup (operating system, CuDNN version), theano or tensorflow configuration (float32, etc.) and hardware (GPU). Non-deterministic behaviour of [GPUs with keras](https://github.com/fchollet/keras/issues/850), [theano on GPUs](https://groups.google.com/forum/#!topic/theano-users/Q9tD4Af_7ho) and [tensorflow on GPUs](https://github.com/tensorflow/tensorflow/issues/2652) have been reported.
+Please note that the exact results depend on your system setup (CuDNN version, etc.), theano or tensorflow configuration (float32, etc.) and hardware (GPU etc.). Non-deterministic behaviour of [GPUs with keras](https://github.com/fchollet/keras/issues/850), [of theano on GPUs](https://groups.google.com/forum/#!topic/theano-users/Q9tD4Af_7ho) and [of tensorflow on GPUs](https://github.com/tensorflow/tensorflow/issues/2652) have been reported.
