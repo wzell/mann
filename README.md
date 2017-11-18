@@ -16,5 +16,5 @@ In our paper, we report results for one artificial dataset and two benchmark dat
 # Experiments
 Use the files, artificial_example.py, object_recognition.py, sentiment_analysis.py and parameter_sensitivity.py to run the experiments and create the images from the paper. Change the N_REPETITIONS parameter for shorter evaluation times.
 
-# Reproducibility
-We tested our code on different environments with different random seeds and experinced sligthly different random results. This behaviour is [known for keras on GPU](https://github.com/fchollet/keras/issues/850) and [the theano backend using the GPU](https://groups.google.com/forum/#!topic/theano-users/Q9tD4Af_7ho) and even for [different GPU configurations using thesorflow](https://github.com/tensorflow/tensorflow/issues/2652). However, although sligthly different numbers occured, we could not identify any contradictions to the claims of the paper.
+# System Independence of Results
+We tested our code on different environments with different random seedsand different theano configurations. Sometimes, we experinced sligthly different random results. This behaviour is [known for keras on GPU](https://github.com/fchollet/keras/issues/850) and [the theano backend using the GPU](https://groups.google.com/forum/#!topic/theano-users/Q9tD4Af_7ho) and even for [different GPU configurations using thesorflow](https://github.com/tensorflow/tensorflow/issues/2652). However, although sligthly different numbers occured, we could not identify any contradictions to the claims of the paper.
