@@ -90,7 +90,7 @@ def neural_network(domain_adaptation=False):
     moment alignment neural network (MANN)
     
     - Zellinger, Werner, et al. "Robust unsupervised domain adaptation for
-    neural networks via moment alignment.", TODO
+    neural networks via moment alignment.", arXiv preprint arXiv:1711.06114, 2017
     """
     # layer definition
     input_s = Input(shape=(2,), name='souce_input')
