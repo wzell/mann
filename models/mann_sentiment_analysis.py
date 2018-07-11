@@ -90,7 +90,7 @@ class MANN:
                                        verbose=0)
         checkpointer = ModelCheckpoint(filepath=self.tmp_folder+
                                                 self.save_weights,
-                                       monitor='val_pred_acc',
+                                       monitor='val_pred_acc_1',
                                        verbose=0,
                                        save_best_only=True)
         self.callbacks = [early_stopping,checkpointer]
