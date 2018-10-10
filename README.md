@@ -1,11 +1,11 @@
 # Unsupervised Domain Adaptation with Moment Alignment Neural Networks (Keras)
 
 This repository contains code for reproducing the experiments reported in the paper
-- W. Zellinger, B.A. Moser, T. Grubinger, E. Lughofer, T. Natschlaeger, and S. Saminger-Platz, "Robust unsupervised domain adaptation for neural networks via moment alignment," arXiv preprint arXiv:1711.06114, 2017
+- W. Zellinger, B.A. Moser, T. Grubinger, E. Lughofer, T. Natschlaeger, and S. Saminger-Platz, "Robust unsupervised domain adaptation for neural networks via moment alignment," [[arXiv preprint]](https://arxiv.org/abs/1711.06114), 2017
 
 that extends the preliminary conference version
 
-- W.Zellinger, T. Grubinger, E. Lughofer, T. Natschlaeger, and Susanne Saminger-Platz, "Central moment discrepancy (cmd) for domain-invariant representation learning," International Conference on Learning Representations (ICLR), 2017
+- W.Zellinger, T. Grubinger, E. Lughofer, T. Natschlaeger, and Susanne Saminger-Platz, "Central moment discrepancy (cmd) for domain-invariant representation learning," International Conference on Learning Representations (ICLR), [[OpenReview.net]](https://openreview.net/forum?id=SkB-_mcel), 2017
 
 # Requirements
 The implementation is based on the neural networks library keras (version 1.1) and tested with theano backend (version 0.9). For installing theano and keras please follow the installation instruction on the respective github pages. You will also need: numpy, pandas, seaborn, matplotlib, and scipy.
