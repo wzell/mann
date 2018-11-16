@@ -1,7 +1,7 @@
 # Unsupervised Domain Adaptation with Moment Alignment Neural Networks (Keras)
 
 This repository contains code for reproducing the experiments reported in the paper
-- W. Zellinger, B.A. Moser, T. Grubinger, E. Lughofer, T. Natschlaeger, and S. Saminger-Platz, "Robust unsupervised domain adaptation for neural networks via moment alignment," [[arXiv preprint]](https://arxiv.org/abs/1711.06114), 2017
+- W. Zellinger, B.A. Moser, T. Grubinger, E. Lughofer, T. Natschlaeger, and S. Saminger-Platz, "Robust unsupervised domain adaptation for neural networks via moment alignment," under minor revision in Information Sciences, [[arXiv preprint]](https://arxiv.org/abs/1711.06114), 2018
 
 that extends the preliminary conference version
 
