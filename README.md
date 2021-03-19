@@ -1,4 +1,4 @@
-# Unsupervised Domain Adaptation with Central Moment Discrepancy (Keras)
+# Unsupervised Domain Adaptation with Central Moment Discrepancy in Keras
 
 This repository contains code for reproducing the experiments reported in the paper
 - W. Zellinger, B.A. Moser, T. Grubinger, E. Lughofer, T. Natschlaeger, and S. Saminger-Platz, "Robust unsupervised domain adaptation for neural networks via moment alignment," [[Information Sciences 483: 174-191]](https://doi.org/10.1016/j.ins.2019.01.025), [[arXiv preprint]](https://arxiv.org/abs/1711.06114), May 2019
